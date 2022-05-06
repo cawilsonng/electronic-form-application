@@ -1,0 +1,7 @@
+version: "3.5"
+services:
+  eForm:
+    build: .
+    image: eform
+    ports:
+      - "3000:3000"
